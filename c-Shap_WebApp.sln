@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reference", "Reference", "{AA0E80A8-EBCE-46C1-90B3-A79F0059A567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Reference\Helper\Helper.csproj", "{42579C9D-BB73-401E-81EF-AB02BB196370}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "c-Shap_WebApp", "c-Shap_WebApp\", "{C41D2740-A386-47A9-BA43-35A20EB28F41}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/c-Shap_WebApp"
+		Debug.AspNetCompiler.PhysicalPath = "c-Shap_WebApp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\c-Shap_WebApp\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/c-Shap_WebApp"
+		Release.AspNetCompiler.PhysicalPath = "c-Shap_WebApp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\c-Shap_WebApp\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1764"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42579C9D-BB73-401E-81EF-AB02BB196370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42579C9D-BB73-401E-81EF-AB02BB196370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42579C9D-BB73-401E-81EF-AB02BB196370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42579C9D-BB73-401E-81EF-AB02BB196370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41D2740-A386-47A9-BA43-35A20EB28F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41D2740-A386-47A9-BA43-35A20EB28F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41D2740-A386-47A9-BA43-35A20EB28F41}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41D2740-A386-47A9-BA43-35A20EB28F41}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42579C9D-BB73-401E-81EF-AB02BB196370} = {AA0E80A8-EBCE-46C1-90B3-A79F0059A567}
+	EndGlobalSection
+EndGlobal
